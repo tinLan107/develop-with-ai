@@ -1,0 +1,7 @@
+interface:
+  display_name: "AI开发标准流程"
+  short_description: "以需求发现和证据阶段门控制产品设计、开发、集成与发布"
+  default_prompt: "使用 $develop-with-ai，先判断授权与风险等级；在开发前用真实样本、对象生命周期、操作矩阵、历史数据和高风险假设完成需求发现门，除非我明确要求实施，否则不要修改代码、数据或服务。"
+
+policy:
+  allow_implicit_invocation: false
